@@ -67,7 +67,7 @@ const Navbar = ({ currentPage, setPage }: { currentPage: Page, setPage: (p: Page
           <div className="w-8 h-8 bg-main rounded-lg flex items-center justify-center">
             <Heart className="w-5 h-5 text-white fill-current" />
           </div>
-          <span className="text-lg font-bold tracking-tight text-ink">One Sentence</span>
+          <span className="text-lg font-bold tracking-tight text-ink"> 마음전해 </span>
         </div>
         
         <div className="hidden md:flex items-center gap-8">
@@ -101,7 +101,7 @@ const Footer = () => (
       <div>
         <div className="flex items-center gap-2 mb-4">
           <Heart className="w-5 h-5 text-main fill-current" />
-          <span className="text-lg font-bold text-ink">One Sentence</span>
+          <span className="text-lg font-bold text-ink"> 마음전해 </span>
         </div>
         <p className="text-[14px] text-ink-light leading-relaxed">
           우리는 치료가 아니라, 정서적 지지 루틴을 만드는 것을 목표로 합니다.
@@ -120,7 +120,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="text-[13px] text-ink/30 md:text-right">
-        © 2026 One Sentence. All rights reserved.
+        © 2026 마음전해. All rights reserved.
       </div>
     </div>
   </footer>
